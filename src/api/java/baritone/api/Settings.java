@@ -775,6 +775,15 @@ public final class Settings {
      * do that lol, so thats one reason why its disabled
      */
     public final Setting<Boolean> legitMineIncludeDiagonals = new Setting<>(false);
+    
+    /**
+     *  Tells Baritone to go home after mining
+     */
+    public final Setting<Boolean> miningGoHome = new Setting<>(true);
+    /**
+     *  Tells Baritone to check if there is enough Space in the Inventory, while mining
+     */
+    public final Setting<Boolean> miningCheckInventory = new Setting<>(true);
 
     /**
      * When mining block of a certain type, try to mine two at once instead of one.
